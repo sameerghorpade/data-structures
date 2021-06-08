@@ -11,7 +11,7 @@ namespace Sameer.DS.CustomLib
         {
             List<int> vs = new List<int>();
             
-
+            /*
             Console.WriteLine("Array Example");
             Console.WriteLine("-------------");
             IDynamicArray ds = new DynamicArray();
@@ -24,14 +24,22 @@ namespace Sameer.DS.CustomLib
             ds.Insert(70);
             ds.Insert(80);
             ds.Insert(90);
-            
-
             ds.InsertAt(2, 900);
+
             var m = ds.Max();
+            Console.WriteLine("Max: " + m);
+
             var ra = ds.Reverse();
             var ci = ds.CommonItems(new int[] { 10, 900, 66, 29, 50 });
-            Console.WriteLine("Max: " + m);
-            ds.Print();
+            */
+            var ds_li = new LinkedList.LinkedList();
+            ds_li.AddLast(1);
+            ds_li.AddLast(2);
+            //ds_li.AddLast(3);
+            //ds_li.DeleteFirst();
+            //ds_li.DeleteLast();
+            //ds.Print();
+            ds_li.Reverse();
         }
     }
 }
